@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: cursive;
+}
+
+.game {
+    width: 600px;
+    height: 600px;
+    background-color: #111;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.tile {
+    cursor: pointer;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120px;
+}
+
+.tile:hover {
+    background-color: #eee;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;;
+}
+
+.status .score {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.status .user {
+    font-size: 60px;
+}
