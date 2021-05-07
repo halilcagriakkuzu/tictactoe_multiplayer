@@ -10,22 +10,26 @@
 <body>
     <div class="container">
         <h1>Tic Tac Toe</h1>
+        <p>Turn : <strong id="turn">X</strong></p>
         <div class="status">
             <div class="user">X</div>
-            <div class="score">1-1</div>
+            <div class="score">0 - 0</div>
             <div class="user">O</div>
         </div>
         <div class="game">
-            <div class="tile">X</div>
-            <div class="tile"></div>
-            <div class="tile">O</div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
-            <div class="tile"></div>
+            <div class="tile" data-i="0"></div>
+            <div class="tile" data-i="1"></div>
+            <div class="tile" data-i="2"></div>
+            <div class="tile" data-i="3"></div>
+            <div class="tile" data-i="4"></div>
+            <div class="tile" data-i="5"></div>
+            <div class="tile" data-i="6"></div>
+            <div class="tile" data-i="7"></div>
+            <div class="tile" data-i="8"></div>
         </div>
     </div>
+
+    <script src="game.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
